@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             background-image:radial-gradient(rgb(241, 131, 149),rgb(93, 230, 230),rgb(245, 70, 122))
+        }
+        h2{
+            color:rgb(23, 7, 241);
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 1.2px 1.2px;
+        }
+        div.gallery {
+            border: 2px solid black;
+        }
+        div.gallery:hover {
+            border: 2px solid blue;
+        }
+        div.gallery:hover {
+            width: 100%;
+            height: auto;
+        }
+        div.about{
+            padding: 15px;
+            text-align: center;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24%;
+        }
+        @media only screen and (max-width:700px) {
+            .responsive {
+                width: 49.99%;
+                margin: 6px 0;
+            }
+        }
+        @media only screen and (max-width:500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h2>About us</h2>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="hr.jpeg">
+                <img src="hr.jpeg" width="295px" height="200px">
+            </a>
+            <div class="About">Rate = 4000</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="hrm.jpeg">
+                <img src="hrm.jpeg" width="295px" height="200px">
+            </a>
+            <div class="About">Rate = 4200</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="OIP (2).jpeg">
+                <img src="OIP (2).jpeg" width="294px" height="200px">
+            </a>
+            <div class="About">Rate = 4500</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="OIP (1).jpeg">
+                <img src="OIP (1).jpeg" width="295px" height="200px">
+            </a>
+            <div class="About">Rate = 5000</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <p>At Radisson Hotel Group we strive to be the first choice in the mind of guests,owners and talent.<br> In our journey to achieve this,<br> we practice strong beliefs and actions that respect the diversity of people, <br>the community, ethics and the planet.</p>
+    
